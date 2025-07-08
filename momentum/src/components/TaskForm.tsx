@@ -81,7 +81,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
           </DialogDescription>
         </DialogHeader>
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-4">
+          <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-6 space-x-4">
             <FormField
               control={form.control}
               name="title"
