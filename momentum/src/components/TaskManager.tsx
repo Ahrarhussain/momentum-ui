@@ -65,7 +65,7 @@ const TaskManager: React.FC = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Target className="h-8 w-8 text-blue-600" />
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
-              Smart Task Manager
+              Momentum
             </h1>
           </div>
           <p className="text-xl text-gray-600 mb-6">
